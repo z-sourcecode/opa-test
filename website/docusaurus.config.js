@@ -141,8 +141,8 @@ const config = {
             ],
           },
         ],
+        copyright: `Built with ❤️ at AWS<br/>Copyright © ${new Date().getFullYear()} Amazon.com, Inc. or its affiliates. All rights reserved`,
       },
-      copyright: `Built with ❤️ at AWS<br/>Copyright © ${new Date().getFullYear()} Amazon.com, Inc. or its affiliates. All rights reserved`,
       colorMode: {
         defaultMode: 'light',
         disableSwitch: true,
