@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'OPA on AWS',
-  tagline: 'Simplifying the Developer Experience with AWS',
-  // favicon: 'img/favicon.ico',
+  tagline: 'Orchestrate Platform and Applications',
+  favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://opaonaws.io',
@@ -18,9 +18,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'awslabs', // Usually your GitHub org/user name.
   projectName: 'app-development-for-backstage-io-on-aws', // Usually your repo name.
-
+  organizationName: 'AWS', // Usually your GitHub org/user name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -67,7 +66,7 @@ const config = {
         title: 'OPA on AWS',
         logo: {
           alt: 'OPA on AWS Logo',
-          src: 'img/opa-logo.png',
+          src: 'img/opa.svg',
         },
         items: [
           {
@@ -77,6 +76,21 @@ const config = {
             label: 'Documentation',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/workshop', 
+            label: 'Workshop', 
+            position: 'left'
+          },
+          {
+            to: '/partners', 
+            label: 'Partners', 
+            position: 'left'
+          },
+          {
+            to: '/about', 
+            label: 'About', 
+            position: 'left'
+          },
           {
             href: 'https://github.com/awslabs/app-development-for-backstage-io-on-aws',
             label: 'GitHub',
@@ -122,13 +136,13 @@ const config = {
               // },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/awslabs/app-development-for-backstage-io-on-aws',
               },
             ],
           },
         ],
-        copyright: `Built with ❤️ at AWS<br/>Copyright © ${new Date().getFullYear()} Amazon.com, Inc. or its affiliates. All rights reserved`,
       },
+      copyright: `Built with ❤️ at AWS<br/>Copyright © ${new Date().getFullYear()} Amazon.com, Inc. or its affiliates. All rights reserved`,
       colorMode: {
         defaultMode: 'light',
         disableSwitch: true,
