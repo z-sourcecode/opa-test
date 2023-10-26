@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# F.A.Q
+# FAQ
 
 Let's discover **Docusaurus in less than 5 minutes**.
 

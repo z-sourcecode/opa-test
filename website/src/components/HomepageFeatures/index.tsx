@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/time_savings.svg').default,
     description: (
       <>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
@@ -21,7 +21,37 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/write_code.svg').default,
+    description: (
+      <>
+        Tellus integer feugiat scelerisque varius morbi enim nunc faucibus a.
+      </>
+    ),
+  },
+  {
+    title: 'Better Cloud Developer Experience',
+    Svg: require('@site/static/img/cloud_developer.svg').default,
+    description: (
+      <>
+        Placerat orci nulla pellentesque dignissim enim sit amet 
+        venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam
+      </>
+    ),
+  },
+  {
+    title: 'Templated Environments',
+    Svg: require('@site/static/img/regulations.svg').default,
+    description: (
+      <>
+        Standards - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </>
+    ),
+  },
+  {
+    title: 'Cloud Acceleration',
+    Svg: require('@site/static/img/person_go_fast.svg').default,
+    // Svg: require('@site/static/img/cloud_accelerate.svg').default,
     description: (
       <>
         Tellus integer feugiat scelerisque varius morbi enim nunc faucibus a.
@@ -30,7 +60,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Powered by Backstage',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/Backstage_Icon_Teal.svg').default,
     description: (
       <>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 

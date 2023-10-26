@@ -7,7 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'OPA on AWS',
-  tagline: 'Orchestrate Platform and Applications',
+  // tagline: 'Orchestrate Platform and Applications',
+  tagline: 'Simplifying the Developer Experience with AWS',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -19,7 +20,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   projectName: 'app-development-for-backstage-io-on-aws', // Usually your repo name.
-  organizationName: 'AWS', // Usually your GitHub org/user name.
+  organizationName: 'awslabs', // Usually your GitHub org/user name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -38,18 +39,9 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl:
+            'https://github.com/awslabs/app-development-for-backstage-io-on-aws/blob/main/website/',
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -61,12 +53,17 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/opa-logo.png',
       navbar: {
-        title: 'OPA on AWS',
+        // title: 'OPA on AWS',
+        hideOnScroll: false,
         logo: {
           alt: 'OPA on AWS Logo',
           src: 'img/opa.svg',
+          srcDark: 'img/opa_dark.svg',
+          className: 'opa-nav-logo',
+          // width: 128,
+          // height: 128,
         },
         items: [
           {
@@ -93,10 +90,21 @@ const config = {
           },
           {
             href: 'https://github.com/awslabs/app-development-for-backstage-io-on-aws',
-            label: 'GitHub',
             position: 'right',
+            className: 'header-github-link',
           },
+          // {
+          //   type: 'search',
+          //   position: 'right',
+          // }
         ],
+      },
+      announcementBar: {
+        content:
+          'OPA on AWS phase 2 is now available.  Check it out and give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/awslabs/app-development-for-backstage-io-on-aws">GitHub</a>! ⭐️',
+        backgroundColor: '#ffffff',
+        textColor: '#000000',
+        isCloseable: true,
       },
       footer: {
         style: 'dark',
@@ -110,22 +118,31 @@ const config = {
               },
             ],
           },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     {
+          //       label: 'Stack Overflow',
+          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+          //     },
+          //     {
+          //       label: 'Discord',
+          //       href: 'https://discordapp.com/invite/docusaurus',
+          //     },
+          //     {
+          //       label: 'Twitter',
+          //       href: 'https://twitter.com/docusaurus',
+          //     },
+          //   ],
+          // },
           {
-            title: 'Community',
+            title: 'Learn',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
+                label: 'YouTube Videos',
+                href: 'https://www.youtube.com/playlist?list=PLhr1KZpdzukemoBUAPNUMCgGk88pdURJB' 
+              }
+            ]
           },
           {
             title: 'More',
@@ -141,12 +158,18 @@ const config = {
             ],
           },
         ],
-        copyright: `Built with ❤️ at AWS<br/>Copyright © ${new Date().getFullYear()} Amazon.com, Inc. or its affiliates. All rights reserved`,
+        copyright: `Built with ❤️ at AWS | Copyright © ${new Date().getFullYear()} Amazon.com, Inc. or its affiliates. All rights reserved`,
       },
       colorMode: {
         defaultMode: 'light',
         disableSwitch: true,
-        respectPrefersColorScheme: false,
+        respectPrefersColorScheme: true,
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
       },
       prism: {
         theme: lightCodeTheme,

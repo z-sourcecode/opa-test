@@ -4,11 +4,20 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+  padding: 2rem 0 0 0;
+  text-align: right;
   position: relative;
   overflow: hidden;
 }
+
+.logoImage {
+  width: 40%;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* .logoImage:hover {
+  transform: scale(1.1);
+} */
 
 @media screen and (max-width: 996px) {
   .heroBanner {
