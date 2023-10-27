@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Create Environments
+# How to bind a resource to an app
 
 We'll use Backstage's software template feature to efficiently provision our application's runtime environments. Opa on AWS provides different types of environments. the process is similar and can also be extend or modify.
 

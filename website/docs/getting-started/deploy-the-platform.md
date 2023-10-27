@@ -19,13 +19,15 @@ The following software is required to perform the installation of the platform s
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 
-> [!NOTE]  
+:::note
 > The installation instructions documented here were tested using the following versions:
 > - Backstage v1.17
 > - node v18.17
 > - npm 9.6.7
 > - cdk v2.95
 > - yarn 1.22.19
+:::
+
 
 ### Solution Platform prerequisites
 
