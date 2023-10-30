@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkopa_on_aws_website=self.webpackChunkopa_on_aws_website||[]).push([[2572],{2572:(e,s,a)=>{a.r(s)}}]);

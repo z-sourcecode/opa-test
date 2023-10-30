@@ -1,0 +1,1 @@
+(self.webpackChunkopa_on_aws_website=self.webpackChunkopa_on_aws_website||[]).push([[684],{9039:(s,e,a)=>{"use strict";a.d(e,{Z:()=>_});var w=a(1336);const _=w},5525:()=>{}}]);
