@@ -24,6 +24,7 @@ sidebar_position: 8
 | **Delete provider** | Platform Engineer | Remove a provider |
 | **Centralized pipelines** | Platform Engineer | Load pipelines dynamically from a centralized repository  |
 | **Component Pending page** | Platform Engineer | Present a partial page while the component IAC pipeline is still processing  |
+| **Terraform/CDK pipelines** | Platform Engineer | Support both terraform and CDK pipelines to provision resources  |
 
 
 
@@ -36,7 +37,7 @@ sidebar_position: 8
 | **Environment Binding** | Platform Engineer | Bind Environments to allow network communication across multiple VPC's through AWS Transit gateway | February 2024 |
 
 
-## Provider examples and templates
+## Provided examples and templates
 | Feature | Description | Type |
 | :- | :- | :- |
 | AWS ECS Environment Provider | a provider IAC for ECS runtime | Provider |

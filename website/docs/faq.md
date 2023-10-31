@@ -6,37 +6,41 @@ sidebar_position: 10
 
 > **Q.** What is OPA on AWS?
 > 
-> **A.** OPA on AWS brings AWS cloud closer to your developers. The platform allows enterprise to build environments and applications on AWS without requiring to upskill on cloud expertise. OPA on AWS provides a productive secure and scalable experience for non-cloud developers.
+> **A.** Orchestrate Platforms and Applications (OPA) on AWS is an open source reference implementation that ties together AWS services into an enterprise ready solution. By abstracting AWS services, OPA on AWS allows application developers to focus on what they do best – writing application logic code, all while allowing platform engineering teams to enforce internal guardrails and best practices at scale. OPA on AWS provides a productive and pleasurable experience for non-cloud developers, and allows for integrations with your current tooling. It is fast, safe, fun, and at-scale.
 
-
-> **Q.**  Why did we have to build this thing?
+> **Q.**  What does OPA on AWS do?
 > 
-> **A.**  Enterprise are challenged to integrate with AWS while adhering to their standards, security guardrails and compliance. In addition, cloud engineers are a scarce resource that does not scale. Using platform engineering this gap is shorten thus enabling enterprise to improve their developer experience and scales the use of AWS Services securely.
+> **A.**  OPA on AWS provides a comprehensive Internal Developer Platform solution. It allows developers to write application logic, on AWS, without having to know how to provision and manage AWS services. OPA on AWS also allows platform engineering teams to easily manage all the resources and applications that run on AWS.
+
+
+> **Q.**  What was the motivation behind building OPA on AWS?
+> 
+> **A.**  Enterprise are challenged to integrate with AWS while adhering to their standards, security guardrails and compliance. In addition, cloud engineers are a scarce resource that does not scale. Using platform engineering this gap is shortened, thus enabling enterprise to improve their developer experience and scales the use of AWS Services securely.
 
 
 > **Q.** Is OPA on AWS an AWS Service?
 > 
-> **A.** No, OPA on AWS is an Open source Platform reference implementation. Supporting full integration with AWS Services for enterprises. Since OPA on AWS is using native AWS Services you get all the benefits and scale of AWS scales with the platform but with an improve developer experience. 
+> **A.** No, OPA on AWS is not a managed service. it is an open source Platform reference implementation. Supporting full integration with AWS Services for enterprises. Since OPA on AWS is using native AWS Services, thus it provides all the benefits and scale that AWS can offer, along with a pleasurable developer experience
 
 
-> **Q.** Who is OPA for?
+> **Q.** What is the audience for OPA on AWS?
 > 
-> **A.** Enterprises organizations with many developer teams who wish to scale their use of AWS cloud and migrate hundreds/thousands of applications
+> **A.** OPA on AWS binds the AWS services into an enterprise ready offering. It was built with a financial enterprise use case, while accommodating for the security and regulatory compliance needs, and the necessity for scale and efficiency. Hence, it is applicable for every company which is interested in scaling while still keeping the same tooling and additional internal and external standards.
 
 
-> **Q.** Can AWS Help me to use OPA?
+> **Q.** What support do you offer? How can I learn to use OPA on AWS?
 > 
-> **A.** Yes, Please reach out to us at fsi-pace-pe@amazon.com
+> **A.** OPA on AWS is accompanied with heavy documentation, detailed readMes, an easy to run workshop, and a YouTube playlist. All of these resources can help you learn more about the solution, and get started. For any issue beyond the current available information, you are welcome to reach out to us via GitHub, or directly on fsi-pace-pe+support@amazon.com
 
 
-> **Q.** How will it be supported? is it an official offering?
+> **Q.** What is OPA on AWS’s license?
 > 
-> **A.** OPA on AWS at the moment is an open source project contributed by AWS and licensed as  Apache-2.0
+> **A.** OPA on AWS is licensed as Apache-2.0.
 
 
 > **Q.** What are the benefits for using OPA?
 > 
-> **A.** A better developer experience and faster way to scale the use of AWS Services for enterprises
+> **A.** A better developer experience and faster way to scale the use of AWS Services for enterprises. Please see the full [features page](/docs/features)
 
 
 > **Q.** What are the requirements to get started on Opa?
@@ -51,12 +55,12 @@ sidebar_position: 10
 
 > **Q.** Is there a roadmap?
 > 
-> **A.** We publish list of features and what is in progress on [features](docs/features)
+> **A.** Please see the features section under [features](docs/features)
 
 
-> **Q.** What if backstage goes away? 
+> **Q.** Why is OPA on AWS integrated with Backstage.io? 
 > 
-> **A.** Backstage was adopted and matured as [CNCF project](https://www.cncf.io/projects/backstage/) - it fit as a good starting point to build your platform and integration with AWS . using backstage.io helps to expedite the development but more importantly it allows us to benefit from 100+ plugins(which customers may be using) and large community support(20k+)
+> **A.** Backstage.io is a mature [CNCF project](https://www.cncf.io/projects/backstage/), and has been widely adopted across the market. By integrating with Backstage.io, users of OPA on AWS can benefit from +100 plugins and a large community (+20k). This allows customers to customize their environments, and keep existing tooling, while still working on AWS. Building on Backstage.io has helped to expedite the journey of OPA on AWS, and bring more value to our customers.
 
 
 > **Q.** How can OPA on AWS accelerate applications migration?
@@ -64,32 +68,32 @@ sidebar_position: 10
 > **A.** Please see our [Migration page](docs/category/migrations) 
 
 
-> **Q.** Is it going to be hard to upgrade OPA on AWS or upgrade Backstage?
+> **Q.** What happens if Backstage.io releases an update? How will OPA on AWS accommodate updates?
 > 
-> **A.** We list the last tested version of backstage with OPA on AWS Plugins. the solution is decoupled from backstage therefore it should be possible to upgrade backstage and install the plugins afterwards. However backstage may introduce breaking changes and therefore we publish the last tested plugin version
+> **A.** OPA on AWS lists the latest tested version of Backstage.io with OPA on AWS plugins. The solution is decoupled from Backstage.io, therefore it should be possible to upgrade backstage and install the plugins afterwards. However, Backstage.io may introduce breaking changes and therefore we publish the last tested plugin version.
 
 
-> **Q.** how do I train my team? what resources are available?
+> **Q.** How can I report bugs or submit feature requests?
 > 
-> **A.** We have 3 main sources - Documentation, YouTube videos and Workshop
+> **A.** Please submit any issues and requests via the [public repository](https://github.com/awslabs/app-development-for-backstage-io-on-aws/issues)
 
 
-> **Q.** Will AWS supply templates for me to use? will they maintain them?
+> **Q.** Will AWS supply templates or examples? How will they be maintained?
 > 
-> **A.** We provide many **samples and examples** for templates, for: providers, apps and resources
+> **A.** There are many samples and examples provided, please see [this table](/docs/features#provided-examples-and-templates).
 
 
-> **Q.** Will this make the DevOps team obsolete 
+> **Q.** Will this make the DevOps team obsolete?
 > 
-> **A.** No, The idea is that teams will own their infrastructure and applications and reduce the bottleneck from your devops team
+> **A.** OPA on AWS helps scale DevOps teams and enables the development teams to own their infrastructure and applications and reduce the bottleneck from the DevOps team.
 
 > **Q.** How secure is this solution?  Has it been reviewed by a third party?
 > 
-> **A.** The solution was designed for a large financial customer adhering to financial services customer regulation and AWS best practices
+> **A.** The solution was designed for a large financial customer adhering to financial services customer regulation and AWS best practices. The solution have been through AWS security review.
 
-> **Q.** Whats the difference between OPA and AWS console
+> **Q.** How does OPA on AWS differ from AWS console?
 > 
-> **A.** The focus is the developer experience not the complete depth and functionality of AWS Services which requires cloud skills
+> **A.** OPA on AWS aims to provide a pleasurable developer experience by providing a simplified way to use AWS. By nature, the AWS console will enable the skilled cloud engineer to fine-tune and define their needs, however, OPA on AWS will enable a persona to build on AWS without having to know how to operate all the knobs and dials.
 
 
 > **Q.** What is an Internal Developing Platform (IDP)?
@@ -97,7 +101,7 @@ sidebar_position: 10
 > **A.** Please refer to [platformengineering.org](https://platformengineering.org/blog/internal-developer-platforms-from-idea-to-reality)
 
 
-> **Q.** Do you have a CLI?
+> **Q.** Does OPA on AWS have a CLI?
 > 
 > **A.** Not yet - Please see [features](docs/features)
 

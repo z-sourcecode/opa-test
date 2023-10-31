@@ -4,44 +4,43 @@ sidebar_position: 9
 
 # Videos
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## YouTube playlist
 
-## Getting Started
 
-Get started by **creating a new site**.
+[![Introduction](https://img.youtube.com/vi/jP7zLghcFz8/hqdefault.jpg)](https://www.youtube.com/playlist?list=PLhr1KZpdzukcf5e7vYOVkpw4h-rzy7Pn3)
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
-### What you'll need
+## Individual videos
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### Introduction
+[![Introduction](https://img.youtube.com/vi/jP7zLghcFz8/hqdefault.jpg)](https://youtu.be/jP7zLghcFz8)
 
-## Deploy a new platform
+###  Platform Engineering
+[![Introduction](https://img.youtube.com/vi/wdKpfgQvHzo/hqdefault.jpg)](https://youtu.be/wdKpfgQvHzo)
 
-Generate a new Docusaurus site using the **classic template**.
+###  Application Developer
+[![Introduction](https://img.youtube.com/vi/R0ohgdvpmk0/hqdefault.jpg)](https://youtu.be/R0ohgdvpmk0)
 
-The classic template will automatically be added to your project after you run the command:
+### Deploy an Application to other Environments
+[![Introduction](https://img.youtube.com/vi/EgfIAPzIAHk/hqdefault.jpg)](https://youtu.be/EgfIAPzIAHk)
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+### Provision AWS Resources and Resource Binding
+[![Introduction](https://img.youtube.com/vi/eEjV6cAGXCY/hqdefault.jpg)](https://youtu.be/eEjV6cAGXCY)
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### Deploying Serverless APIs
+[![Introduction](https://img.youtube.com/vi/XYZD4fxlE7M/hqdefault.jpg)](https://youtu.be/XYZD4fxlE7M)
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+### OPA Security and RBAC
+[![Introduction](https://img.youtube.com/vi/9f-7f0ynrZQ/hqdefault.jpg)](https://youtu.be/9f-7f0ynrZQ)
 
-## Start building applications
+### Orchestrating and Managing CI/CD
+[![Introduction](https://img.youtube.com/vi/jP7zLghcFz8/hqdefault.jpg)](https://youtu.be/jP7zLghcFz8)
 
-Run the development server:
+### Using Terraform to Orchestrate Applications
+[![Introduction](https://img.youtube.com/vi/WF-M84FGwFg/hqdefault.jpg)](https://youtu.be/WF-M84FGwFg)
 
-```bash
-cd my-website
-npm run start
-```
+### Customizing your platform - Adding providers
+[![Introduction](https://img.youtube.com/vi/aoDkwhrPrfQ/hqdefault.jpg)](https://youtu.be/aoDkwhrPrfQ)
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+### Customizing your platform - Adding Templates
+[![Introduction](https://img.youtube.com/vi/IMY4hLiiFww/hqdefault.jpg)](https://youtu.be/IMY4hLiiFww)
