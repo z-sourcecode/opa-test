@@ -10,12 +10,11 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Single pane of glass',
     Svg: require('@site/static/img/time_savings.svg').default,
     description: (
       <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+       Provision and monitor all environments, resources, and applications in one place.
       </>
     ),
   },
@@ -24,17 +23,16 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/write_code.svg').default,
     description: (
       <>
-        Tellus integer feugiat scelerisque varius morbi enim nunc faucibus a.
+       Build applications easy, fast, and at scale while maintaining your security standards and guardrails.
       </>
     ),
   },
   {
-    title: 'Better Cloud Developer Experience',
+    title: 'Pleasurable Developer Experience',
     Svg: require('@site/static/img/cloud_developer.svg').default,
     description: (
       <>
-        Placerat orci nulla pellentesque dignissim enim sit amet 
-        venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam
+        Return to the classic days of writing application code on your local environment, you won’t even notice it’s AWS!
       </>
     ),
   },
@@ -43,8 +41,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/regulations.svg').default,
     description: (
       <>
-        Standards - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Includes out of the box environments, applications, patterns, and resources and add more easily.
       </>
     ),
   },
@@ -54,18 +51,44 @@ const FeatureList: FeatureItem[] = [
     // Svg: require('@site/static/img/cloud_accelerate.svg').default,
     description: (
       <>
-        Tellus integer feugiat scelerisque varius morbi enim nunc faucibus a.
+        No cloud skills? No problem! Build applications on AWS without knowing AWS.
       </>
     ),
   },
   {
-    title: 'Powered by Backstage',
+    title: 'Powered by Backstage.io',
     Svg: require('@site/static/img/Backstage_Icon_Teal.svg').default,
     description: (
       <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Enjoy the 100+ of available plugins, and maintain your own tooling and preferences, while enjoying all the advantages that AWS has to offer.
       </>
+    ),
+  },
+  {
+    title: 'increase productivity, reduce costs',
+    Svg: require('@site/static/img/time_savings.svg').default,
+    description: (
+      <>
+        Save time and money by scaling your cloud talent and increasing productivity across the board
+      </>
+    ),
+  },
+  {
+    title: 'Enterprise-ready',
+    Svg: require('@site/static/img/time_savings.svg').default,
+    description: (
+      <>
+       Built with common enterprise patterns: self-managed provisioning, compliance friendly, SCM for IAC and policy statements, and automated operations through pipelines.      
+       </>
+    ),
+  },
+  {
+    title: 'Scale Development',
+    Svg: require('@site/static/img/time_savings.svg').default,
+    description: (
+      <>
+       Build hundreds of apps on hundreds of environments for hundreds of teams - on AWS cloud.
+       </>
     ),
   },
 ];

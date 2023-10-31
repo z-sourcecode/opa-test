@@ -158,7 +158,7 @@ const config = {
             items: [
               {
                 label: 'YouTube Videos',
-                href: 'https://www.youtube.com/playlist?list=PLhr1KZpdzukemoBUAPNUMCgGk88pdURJB' 
+                href: 'https://www.youtube.com/playlist?list=PLhr1KZpdzukcf5e7vYOVkpw4h-rzy7Pn3' 
               }
             ]
           },
