@@ -13,7 +13,10 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
-    {/* <header className={clsx('hero hero--primary', styles.heroBanner)} style={{backgroundImage: `url('/img/white_OPA_noText.png')`}} > */}
+    {/* <header className={clsx('hero hero--primary', styles.heroBanner)} style={{backgroundImage: `url('/img/bg_splash.png')`}} > */}
+        {/* <div className='bg-splash'>
+          <img src={useBaseUrl('img/bg_splash.svg')} />
+        </div> */}
       <Grid container spacing={3} className="perspective-container">
         <Grid item xs={6} className="hero hero--primary bgimg"/>
         <Grid item xs={5}>
