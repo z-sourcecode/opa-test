@@ -19,7 +19,7 @@ Enterprises that adopt open source solutions as the foundation of their cloud pl
 > [CNOE.io](https://cnoe.io/)
 
 ### Data on EKS
-Data on Amazon EKS(DoEKS) - A tool for building AWS managed and self-managed scalable Kubernetes data platforms on [Amazon EKS](https://aws.amazon.com/eks/)
+Data on Amazon EKS (DoEKS) - A tool for building AWS managed and self-managed scalable Kubernetes data platforms on [Amazon EKS](https://aws.amazon.com/eks/)
 
 > [Data on EKS](https://awslabs.github.io/data-on-eks/)
 

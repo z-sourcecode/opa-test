@@ -1,6 +1,6 @@
 # Workshop
 
-We can offer customers a hands-on workshop to get familiar with OPA on AWS platform.
+We can offer customers a hands-on workshop to get familiar with the OPA on AWS platform.
 If you wish to run the workshop on your own - you will first need to [deploy the platform](/docs/category/getting-started).
 
 For scheduled events please reach out to fsi-pace-pe@amazon.com

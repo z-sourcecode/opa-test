@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Create Environments
 
-We'll use Backstage's software template feature to efficiently provision our application's runtime environments. Opa on AWS provides different types of environments. the process is similar and can also be extend or modify.
+We'll use Backstage's software template feature to efficiently provision our application's runtime environments. OPA on AWS provides different types of environments. the process is similar and can also be extend or modify.
 
 ## Create an Environment Provider
 

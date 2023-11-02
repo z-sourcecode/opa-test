@@ -103,7 +103,7 @@ toc_max_heading_level: 4
 
 #### How does OPA on AWS differ from AWS console?
 > 
-> OPA on AWS aims to provide a pleasurable developer experience by providing a simplified way to use AWS. By nature, the AWS console will enable the skilled cloud engineer to fine-tune and define their needs, however, OPA on AWS will enable a persona to build on AWS without having to know how to operate all the knobs and dials.
+> OPA on AWS aims to provide a productive, efficient, and delightful developer experience by providing a simplified way to use AWS. By nature, the AWS console will enable the skilled cloud engineer to fine-tune and define their needs, however, OPA on AWS will enable a persona to build on AWS without having to know how to operate all the knobs and dials.
 <br/>
 
 #### What is an Internal Developing Platform (IDP)?
