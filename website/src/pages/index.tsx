@@ -24,11 +24,11 @@ function HomepageHeader() {
             <Grid item  className="hero__subtitle tagline" style={{display: 'flex', alignItems: 'left', paddingRight: 50}}>
               <p>{siteConfig.tagline}</p>
             </Grid>
-            <Grid item style={{alignItems: 'left', textAlign: "center", paddingRight: 50}}>
+            {/* <Grid item style={{alignItems: 'left', textAlign: "center", paddingRight: 50}}>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Maecenas elementum venenatis nisl sagittis mattis. Suspendisse.
+              Maecenas elementum venenatis nisl sagittis mattis. Suspendisse.
               </p>
-            </Grid>
+            </Grid> */}
           </Grid>
           <Grid item xs={3}/>
         </Grid>

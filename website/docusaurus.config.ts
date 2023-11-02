@@ -9,7 +9,7 @@ import rehypeKatex from 'rehype-katex';
 const config: Config = {
   title: 'OPA on AWS',
   // tagline: 'Orchestrate Platform and Applications',
-  tagline: 'Simplifying the Developer Experience with AWS',
+  tagline: 'Simplifying the Enterprise DevEx with AWS',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

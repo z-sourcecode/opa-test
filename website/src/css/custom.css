@@ -24,7 +24,9 @@
   --ifm-font-family-base: "Amazon Ember","Helvetica Neue",Roboto,Arial,sans-serif;
   /* --ifm-navbar-height: 80px; */
 
-  --ifm-image-portal: url("/img/white_OPA_text02.png");
+  --ifm-footer-link-hover-color: #fff;
+
+  --ifm-image-portal: url("/img/white_OPA_noText.png");
 }
 .theme-doc-sidebar-container {
   background-color: #ebebeb;
@@ -49,6 +51,7 @@
 
 .tagline {
   font-weight: bold;
+  font-size: xx-large;
   text-align: center;
 }
 
@@ -65,7 +68,7 @@
 
 .bg-splash img {
   transform: rotate(0deg);
-  width: 50%;
+  width: 70%;
 }
 
 .bgimg {
@@ -87,6 +90,10 @@
 .navbar__link:hover {
   background-color: var(--ifm-color-primary-lightest); /* Change to your desired color */
   border-radius: 6px;
+}
+
+.navbar__link--active {
+  font-weight: var(--ifm-font-weight-bold);
 }
 
 /* GitHub header styling */
