@@ -31,6 +31,12 @@
 .theme-doc-sidebar-container {
   background-color: #ebebeb;
 }
+.navbar .navbar__toggle,
+    .navbar .navbar-sidebar__close,
+    .navbar .navbar-sidebar__back {
+       color: var(--ifm-color-white);
+     }
+
 [data-theme='dark'] .theme-doc-sidebar-container {
   background-color: #020610;
 }
