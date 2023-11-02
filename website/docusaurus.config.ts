@@ -8,7 +8,7 @@ import rehypeKatex from 'rehype-katex';
 
 const config: Config = {
   title: 'OPA on AWS',
-  // tagline: 'Orchestrate Platform and Applications',
+  // tagline: 'Orchestrate Platforms and Applications',
   tagline: 'Simplifying the Enterprise DevEx with AWS',
   favicon: 'img/favicon.ico',
 
@@ -38,7 +38,7 @@ const config: Config = {
       'classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: './sidebars.ts',
           editUrl:
             'https://github.com/awslabs/app-development-for-backstage-io-on-aws/blob/main/website/',
           remarkPlugins: [remarkMath],
