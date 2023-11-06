@@ -21,7 +21,7 @@ function HomepageHeader() {
         <Grid item xs={6} className="hero hero--primary bgimg"/>
         <Grid item xs={5}>
           <Grid container direction="column" spacing={2} style={{display: 'flex'}}>
-            <Grid item  className="hero__subtitle tagline" style={{display: 'flex', alignItems: 'left', paddingRight: 50}}>
+            <Grid item  className="hero__subtitle tagline" style={{display: 'flex', alignItems: 'left', marginTop: 50, paddingRight: 50}}>
               <p>{siteConfig.tagline}</p>
             </Grid>
             {/* <Grid item style={{alignItems: 'left', textAlign: "center", paddingRight: 50}}>

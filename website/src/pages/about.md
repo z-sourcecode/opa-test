@@ -6,7 +6,7 @@ Based on [Backstage](https://backstage.io/) which is an open-source platform ena
 
 <br/>
 
-## About FSI PACE Platform engineering team
+## About FSI PACE Platform Engineering Team
 
 FSI PACE Platform engineering team is focused on unblocking customers and accelerate their journey to the cloud. While working with different customers in the financial services industry, we kept seeing the same challenges being surfaced about landing zones, lack of cloud skills, and difficulties building an internal developer platforms. Many of our customers have been trying to build internal solutions, or found themselves paying hefty fees for external services. Along with our customers, we’ve embarked on this journey of simplifying their internal AWS experience. Thus came to be OPA on AWS.
 

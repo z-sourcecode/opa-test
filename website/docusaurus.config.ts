@@ -9,7 +9,7 @@ import rehypeKatex from 'rehype-katex';
 const config: Config = {
   title: 'OPA on AWS',
   // tagline: 'Orchestrate Platforms and Applications',
-  tagline: 'Simplifying the Enterprise DevEx with AWS',
+  tagline: 'Fast, safe, and at-scale.  A Developer Portal to meet your Enterprise needs.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -39,8 +39,8 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl:
-            'https://github.com/awslabs/app-development-for-backstage-io-on-aws/blob/main/website/',
+          // editUrl:
+          //   'https://github.com/awslabs/app-development-for-backstage-io-on-aws/blob/main/website/',
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
         },
@@ -94,15 +94,11 @@ const config: Config = {
           className: 'header-github-link',
           "aria-label": 'Github repository',
         },
-        // {
-        //   type: 'search',
-        //   position: 'right',
-        // }
       ],
     },
     announcementBar: {
       content:
-        'OPA on AWS phase 2 is now available.  Check it out and give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/awslabs/app-development-for-backstage-io-on-aws">GitHub</a>! ⭐️',
+        'OPA on AWS 0.2 is now available.  Check it out and give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/awslabs/app-development-for-backstage-io-on-aws">GitHub</a>! ⭐️',
       backgroundColor: '#ffffff',
       textColor: '#000000',
       isCloseable: true,
@@ -119,23 +115,6 @@ const config: Config = {
             },
           ],
         },
-        // {
-        //   title: 'Community',
-        //   items: [
-        //     {
-        //       label: 'Stack Overflow',
-        //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //     },
-        //     {
-        //       label: 'Discord',
-        //       href: 'https://discordapp.com/invite/docusaurus',
-        //     },
-        //     {
-        //       label: 'Twitter',
-        //       href: 'https://twitter.com/docusaurus',
-        //     },
-        //   ],
-        // },
         {
           title: 'Learn',
           items: [

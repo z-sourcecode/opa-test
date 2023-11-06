@@ -65,7 +65,7 @@ const SpeedFeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/multi-feature.svg').default,
     description: (
       <>
-        Enjoy the 100+ of available plugins, and maintain your own tooling and preferences, while enjoying all the advantages that AWS has to offer.
+        Built on the CNCF Backstage developer portal, enjoy 100’s of plugins to customize the developer experience.
       </>
     ),
   },
@@ -82,7 +82,7 @@ const ScaleFeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Enterprise-ready',
+    title: 'Enterprise Ready',
     Svg: require('@site/static/img/global_enterprise.svg').default,
     description: (
       <>
