@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## OPA Platform
 
-The below diagram illustrates the major components of the OPA platform.
+The below diagram illustrates the major components of the OPA platform. The version control system appears as running on AWS, but it could run anywhere.
 
 ![Website_Architecture_OPA_Platform.jpg](/img/diagrams/Website_Architecture_OPA_Platform.jpg)
 
