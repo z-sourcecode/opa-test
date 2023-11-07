@@ -19,7 +19,7 @@ export function Feature({title,noSVG, Svg, description, minHeight, customTextSty
       </div>
     </div>  
     ):
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--4')} style={customTextStyle}>
         <div className="text--center">
           <Svg className={styles.featureSvg} role="img" />
         </div>

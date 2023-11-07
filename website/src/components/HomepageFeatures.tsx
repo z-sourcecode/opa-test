@@ -11,25 +11,28 @@ type FeatureGroup = {
 const EnterpriseFeatureList: FeatureItem[] = [
   {
     title: 'Single Pane of Glass',
+    customTextStyle:{minHeight:'350px'},
     Svg: require('@site/static/img/dashboard.svg').default,
     description: (
       <>
-       Provision and monitor all environments, resources, and applications in one place.
+       Provision and monitor all environments, resources, and applications in one place
       </>
     ),
   },
   {
     title: 'Enterprise Ready',
+    customTextStyle:{minHeight:'350px'},
     Svg: require('@site/static/img/global_enterprise.svg').default,
     description: (
       <>
-       Built with common enterprise patterns: self-managed provisioning, compliance friendly, SCM for IAC and policy statements, and automated operations through pipelines.      
+       Built with common enterprise patterns: self-managed provisioning, compliant, SCM for IAC and policy statements, and automated operations via pipelines
        </>
     ),
   },
   {
     // title: 'Pleasurable Developer Experience',
     title: 'Empower Your Developers',
+    customTextStyle:{minHeight:'350px'},
     Svg: require('@site/static/img/cloud_developer.svg').default,
     description: (
       <>
@@ -44,11 +47,11 @@ const opaDescription : FeatureItem[] = [
     title: 'OPA on AWS',
     Svg: require('@site/static/img/regulations.svg').default,
     noSVG:true,
-    minHeight:'400px',
+    minHeight:'300px',
     customTextStyle:{fontSize:'24px', textAlign:'left', maxWidth:'65%', margin:'auto'},
     description: (
       <>
-       <b>Orchestrate Platforms and Applications (OPA) on AWS </b>is an open source reference implementation that ties together AWS services into an enterprise ready developer portal. By abstracting AWS services, OPA on AWS allows application developers to focus on what they do best – write application logic! <br/> <br/> OPA on AWS allows the platform engineering teams to enforce internal guardrails and best practices at scale while providing a productive and pleasurable experience for non-cloud developers. It's fast, secure, fun, and works at-scale.
+       <b>Orchestrate Platforms and Applications (OPA) on AWS </b>is an open source reference implementation that ties together AWS services into an enterprise-ready offering. By abstracting AWS services, OPA on AWS allows application developers to focus on what they do best – write application logic! <br/> <br/> Platform engineering teams can promote best practices at-scale, while providing a productive and pleasurable experience for non-cloud developers
       </>
     ),
   },
@@ -58,30 +61,33 @@ const opaDescription : FeatureItem[] = [
 const SpeedFeatureList: FeatureItem[] = [
   {
     title: 'Templated Environments',
+    customTextStyle:{minHeight:'350px'},
     Svg: require('@site/static/img/regulations.svg').default,
     description: (
       <>
-        Includes out of the box environments, applications, patterns, and resources and add more easily.
+        Includes out of the box environments, applications, patterns, and resources and add more easily
       </>
     ),
   },
   {
     title: 'Cloud Acceleration',
+    customTextStyle:{minHeight:'350px'},
     Svg: require('@site/static/img/person_go_fast.svg').default,
     // Svg: require('@site/static/img/cloud_accelerate.svg').default,
     description: (
       <>
-        No cloud skills? No problem! Build applications on AWS without knowing AWS.
+        No cloud skills? No problem! Build applications on AWS without knowing AWS
       </>
     ),
   },
   {
     // title: 'Powered by Backstage.io',
     title: 'Pluggable Architecture',
+    customTextStyle:{minHeight:'350px'},
     Svg: require('@site/static/img/multi-feature.svg').default,
     description: (
       <>
-        Built on the CNCF Backstage developer portal, enjoy 100’s of plugins to customize the developer experience.
+        Built on the CNCF Backstage developer portal, enjoy 100’s of plugins to customize the developer experience
       </>
     ),
   },
@@ -102,7 +108,7 @@ const ScaleFeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/write_code.svg').default,
     description: (
       <>
-       Build applications easy, fast, and at scale while maintaining your security standards and guardrails.
+       Build applications easy, fast, and at scale while maintaining your security standards and guardrails
       </>
     ),
   },
@@ -111,7 +117,7 @@ const ScaleFeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/scale.svg').default,
     description: (
       <>
-       Build hundreds of apps on hundreds of environments for hundreds of teams - on AWS cloud.
+       Build hundreds of apps on hundreds of environments for hundreds of teams - on AWS cloud
        </>
     ),
   },
@@ -187,7 +193,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/time_savings.svg').default,
     description: (
       <>
-       Built with common enterprise patterns: self-managed provisioning, compliance friendly, SCM for IAC and policy statements, and automated operations through pipelines.      
+       Built with common enterprise patterns: self-managed provisioning, compliant, SCM for IAC and policy statements, and automated operations via pipelines      
        </>
     ),
   },
@@ -196,7 +202,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/time_savings.svg').default,
     description: (
       <>
-       Build hundreds of apps on hundreds of environments for hundreds of teams - on AWS cloud.
+       Build hundreds of apps on hundreds of environments for hundreds of teams - on AWS cloud
        </>
     ),
   },
@@ -207,10 +213,10 @@ const opaImageList : FeatureItem [] = [
     title: '',
     Svg: require('@site/static/img/dashboard.svg').default,
     noSVG: true,
-    minHeight:'400px',
+    minHeight:'570px',
     description: (
       <>
-       AWS Software catalog in a click of a button <img width={'300px'} src="img/opa/opa-screenshot1.png"/>
+       <span class="imageSubtitle">AWS Software catalog in a click of a button </span> <img width={'100%'} src="img/opa/opa-screenshot11.png"/>
       </>
     ),
   },
@@ -218,10 +224,10 @@ const opaImageList : FeatureItem [] = [
     title: '',
     Svg: require('@site/static/img/write_code.svg').default,
     noSVG: true,
-    minHeight:'400px',
+    minHeight:'570px',
     description: (
       <>
-       Scale the use of AWS Services by building and customizing templates <img width={'100%'} src="img/opa/opa-screenshot2.png"/>
+        <span class="imageSubtitle">Scale the use of AWS Services using templates</span> <img width={'100%'} src="img/opa/opa-screenshot22.png"/>
       </>
     ),
   },
@@ -230,11 +236,10 @@ const opaImageList : FeatureItem [] = [
     title: '',
     Svg: require('@site/static/img/cloud_developer.svg').default,
     noSVG: true,
-    minHeight:'400px',
+    minHeight:'570px',
     description: (
       <>
-      
-      Control and manage your application from a single interface <img width={'100%'} src="img/opa/opa-screenshot3.png"/>
+      <span class="imageSubtitle">Manage your applications using a single interface </span> <img width={'100%'} src="img/opa/opa-screenshot33.png"/>
       </>
     ),
   },

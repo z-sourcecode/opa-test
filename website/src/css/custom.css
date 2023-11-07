@@ -82,6 +82,10 @@ header {
 {
   border:none;
 }
+.imageSubtitle {
+  color: #0d317f;
+  font-weight: bold;
+}
 
 @media screen and (max-width: 620px) {
   .logoText1 {
@@ -106,6 +110,8 @@ header {
   }
   .logoWrapper {
     max-width: 100% !important;
+    width: 100% !important;
+    -webkit-flex-basis: 100% !important;
     /* width: 100% !important; */
     /* background-color: black; */
   }
@@ -113,10 +119,13 @@ header {
   .tagWrapper {
     max-width: 100% !important;
     padding: 0 !important;
+    -webkit-flex-basis: 100% !important;
+    width: 100% !important;
     /* background-color: red; */
   }
   .tagline {
     /* padding: 1rem !important; */
+    padding-right: 0px !important; 
   }
 }
 

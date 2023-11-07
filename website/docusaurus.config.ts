@@ -71,6 +71,11 @@ const config: Config = {
       },
       items: [
         {
+          to: '/docs/getting-started/deploy-the-platform', 
+          label: 'Getting Started', 
+          position: 'left'
+        },
+        {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
@@ -114,6 +119,10 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
+              label: 'Getting Started',
+              to: '/docs/getting-started/deploy-the-platform',
+            },
+            {
               label: 'Tutorial',
               to: '/docs/intro',
             },
@@ -123,7 +132,7 @@ const config: Config = {
           title: 'Learn',
           items: [
             {
-              label: 'YouTube Videos',
+              label: 'YouTube Tech-videos',
               href: 'https://www.youtube.com/playlist?list=PLhr1KZpdzukcf5e7vYOVkpw4h-rzy7Pn3' 
             }
           ]
