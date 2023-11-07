@@ -12,51 +12,57 @@ FSI PACE Platform engineering team is focused on unblocking customers and accele
 
 Our goal is to provide a simple, safe, easy-to-use solution, that reduces the overhead from the DevOps team and allows developers to be more productive while still granting the flexibility and security guardrails that every enterprise needs. With OPA on AWS you can move fast, safe, and at scale.
 
-
-### Contributors
+<div class="aboutTable">
 <table>
 <tr>
-    <td>
+    <td align="center">
         <img src="img/team/zahi.jpeg"/><br/>
         Zahi Ben Shabat 
     </td>
-    <td>
+    <td align="center">
         <img src="img/team/anthony.jpeg"/><br/>
         Anthony Watson
     </td>
-    <td>
+    <td align="center">
         <img src="img/team/jim.jpeg"/><br/>
         Jim McVea 
     </td>
-    <td>
+    <td align="center">
         <img src="img/team/lee.jpeg"/><br/>
         Lee Silverman 
     </td>
-        <td>
+    <td align="center">
         <img src="img/team/ken.jpeg"/><br/>
         Kenneth Jackson 
     </td>
 </tr>
+</table>
+</div>
+
+### Contributors
+<div class="aboutTable">
+<table border="0">
 <tr>
-    <td>
+    <td align="center">
         <img src="img/team/alexis.jpeg"/><br/>
         Alexis Tekin 
     </td>
-    <td>
+    <td align="center"> 
         <img src="img/team/simon.jpeg"/><br/>
         Simon Gebreselassie 
     </td>
-    <td>
-        <!-- <img src="img/team/simon.jpeg"/><br/> -->
-        Kareem
+    <td align="center">
+        <img src="img/team/kareem.jpeg"/><br/>
+        Kareem Abdol-Hamid
     </td>
-    <td>
-        <!-- <img src="img/team/simon.jpeg"/><br/> -->
-        Hemal
+    <td align="center">
+        <img src="img/team/hemal.jpeg"/><br/>
+        Hemal Gadhiya
     </td>
-    <td>
-        <!-- <img src="img/team/simon.jpeg"/><br/> -->
-        Pierre
+    <td align="center">
+        <img src="img/team/pierre.jpg"/><br/>
+        Pierre Nkola
     </td>
 </tr>
 </table>
+</div>

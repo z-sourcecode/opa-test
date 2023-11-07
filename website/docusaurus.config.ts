@@ -9,7 +9,7 @@ import rehypeKatex from 'rehype-katex';
 const config: Config = {
   title: 'OPA on AWS',
   // tagline: 'Orchestrate Platforms and Applications',
-  tagline: 'Fast, safe, and at-scale.  A Developer Portal to meet your Enterprise needs.',
+  tagline: 'Fast, secure, and at-scale. A developer portal to meet your Enterprise needs.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -46,6 +46,10 @@ const config: Config = {
         },
         theme: {
           customCss: './src/css/custom.css',
+        },
+        gtag: {
+          trackingID: 'G-K11BYW5K62',
+          anonymizeIP: true,
         },
       } satisfies Preset.Options,
     ],
@@ -145,6 +149,16 @@ const config: Config = {
       disableSwitch: true,
       respectPrefersColorScheme: false,
     },
+    zoom: {
+      selector: 'img',
+      background: {
+        light: 'rgb(255, 255, 255)',
+        dark: 'rgb(50, 50, 50)'
+      },
+      config: {
+        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+      }
+    },
     docs: {
       sidebar: {
         hideable: true,
@@ -156,7 +170,7 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
-  plugins: ['docusaurus-lunr-search'],
+  plugins: ['docusaurus-lunr-search', 'docusaurus-plugin-image-zoom'],
 }
 
 export default config;

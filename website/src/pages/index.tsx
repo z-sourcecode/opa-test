@@ -6,7 +6,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Grid from '@mui/material/Grid';
-
 import styles from './index.module.css';
 
 function HomepageHeader() {
@@ -18,8 +17,11 @@ function HomepageHeader() {
           <img src={useBaseUrl('img/bg_splash.svg')} />
         </div> */}
       <Grid container spacing={3} className="perspective-container">
-        <Grid item xs={6} className="hero hero--primary bgimg"/>
-        <Grid item xs={5}>
+        <Grid item xs={6} className="hero hero--primary bgimg logoWrapper">
+          <span className='logoText1'>Orchestrate Platforms <br/>and Applications</span>
+          <span className='logoText2'>on AWS</span>
+        </Grid>
+        <Grid className='tagWrapper' item xs={5}>
           <Grid container direction="column" spacing={2} style={{display: 'flex'}}>
             <Grid item  className="hero__subtitle tagline" style={{display: 'flex', alignItems: 'left', marginTop: 50, paddingRight: 50}}>
               <p>{siteConfig.tagline}</p>
@@ -42,7 +44,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={siteConfig.title}
-      description="Homepage for the Orchestrate Platforms and Applications (OPA) on AWS solution">
+      description="Homepage for the Orchestrate Platforms and Applications (OPA) on AWS solution"> 
       <HomepageHeader />
       <main>
         <HomepageFeatures />

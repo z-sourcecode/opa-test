@@ -26,7 +26,7 @@
 
   --ifm-footer-link-hover-color: #fff;
 
-  --ifm-image-portal: url("/img/white_OPA_text04.png");
+  --ifm-image-portal: url("/img/opa_white.svg");
 }
 .theme-doc-sidebar-container {
   background-color: #ebebeb;
@@ -54,6 +54,71 @@
 
   --ifm-image-portal: url("/img/squid_OPA_text02.png");
 }
+header {
+  min-height: 450px;
+}
+
+.logoText1 {
+  position: absolute;
+  bottom:22%;
+  font-size: 18px;
+  left: 49%; 
+  text-align: left;
+}
+
+.logoText2 {
+  position: absolute;
+  bottom:10%;
+  font-size:32px;
+  left: 62%;
+  font-style: italic; 
+  text-align:left;
+  color: #ff9900;
+}
+.aboutTable table tr {
+  border: none;
+}
+.aboutTable table td
+{
+  border:none;
+}
+
+@media screen and (max-width: 620px) {
+  .logoText1 {
+    position: absolute;
+    bottom:12%;
+    font-size: 14px;
+    left: 49%; 
+    text-align: left;
+  }
+  
+  .logoText2 {
+    position: absolute;
+    bottom:2%;
+    font-size:18px;
+    left: 62%;
+    font-style: italic; 
+    text-align:left;
+    color: #ff9900;
+  }
+  .features_src-components-HomepageFeatures-module {
+    padding: 0 !important;
+  }
+  .logoWrapper {
+    max-width: 100% !important;
+    /* width: 100% !important; */
+    /* background-color: black; */
+  }
+
+  .tagWrapper {
+    max-width: 100% !important;
+    padding: 0 !important;
+    /* background-color: red; */
+  }
+  .tagline {
+    /* padding: 1rem !important; */
+  }
+}
 
 .tagline {
   font-weight: bold;
@@ -80,6 +145,7 @@
 .bgimg {
   display: flex;
   background-image: var(--ifm-image-portal);
+  /* background-image: url( '/img/opa_white.svg' ); */
   background-position: center bottom;
   background-repeat: no-repeat;
   position: relative;

@@ -19,12 +19,12 @@ const EnterpriseFeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/write_code.svg').default,
+    title: 'Enterprise Ready',
+    Svg: require('@site/static/img/global_enterprise.svg').default,
     description: (
       <>
-       Build applications easy, fast, and at scale while maintaining your security standards and guardrails.
-      </>
+       Built with common enterprise patterns: self-managed provisioning, compliance friendly, SCM for IAC and policy statements, and automated operations through pipelines.      
+       </>
     ),
   },
   {
@@ -38,6 +38,22 @@ const EnterpriseFeatureList: FeatureItem[] = [
     ),
   },
 ];
+
+const opaDescription : FeatureItem[] = [
+  {
+    title: 'OPA on AWS',
+    Svg: require('@site/static/img/regulations.svg').default,
+    noSVG:true,
+    minHeight:'400px',
+    customTextStyle:{fontSize:'24px', textAlign:'left', maxWidth:'65%', margin:'auto'},
+    description: (
+      <>
+       <b>Orchestrate Platforms and Applications (OPA) on AWS </b>is an open source reference implementation that ties together AWS services into an enterprise ready developer portal. By abstracting AWS services, OPA on AWS allows application developers to focus on what they do best – write application logic! <br/> <br/> OPA on AWS allows the platform engineering teams to enforce internal guardrails and best practices at scale while providing a productive and pleasurable experience for non-cloud developers. It's fast, secure, fun, and works at-scale.
+      </>
+    ),
+  },
+]
+
 
 const SpeedFeatureList: FeatureItem[] = [
   {
@@ -82,12 +98,12 @@ const ScaleFeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Enterprise Ready',
-    Svg: require('@site/static/img/global_enterprise.svg').default,
+    title: 'Focus on What Matters',
+    Svg: require('@site/static/img/write_code.svg').default,
     description: (
       <>
-       Built with common enterprise patterns: self-managed provisioning, compliance friendly, SCM for IAC and policy statements, and automated operations through pipelines.      
-       </>
+       Build applications easy, fast, and at scale while maintaining your security standards and guardrails.
+      </>
     ),
   },
   {
@@ -186,6 +202,44 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
+const opaImageList : FeatureItem [] = [
+  {
+    title: '',
+    Svg: require('@site/static/img/dashboard.svg').default,
+    noSVG: true,
+    minHeight:'400px',
+    description: (
+      <>
+       AWS Software catalog in a click of a button <img width={'300px'} src="img/opa/opa-screenshot1.png"/>
+      </>
+    ),
+  },
+  {
+    title: '',
+    Svg: require('@site/static/img/write_code.svg').default,
+    noSVG: true,
+    minHeight:'400px',
+    description: (
+      <>
+       Scale the use of AWS Services by building and customizing templates <img width={'100%'} src="img/opa/opa-screenshot2.png"/>
+      </>
+    ),
+  },
+  {
+    // title: 'Pleasurable Developer Experience',
+    title: '',
+    Svg: require('@site/static/img/cloud_developer.svg').default,
+    noSVG: true,
+    minHeight:'400px',
+    description: (
+      <>
+      
+      Control and manage your application from a single interface <img width={'100%'} src="img/opa/opa-screenshot3.png"/>
+      </>
+    ),
+  },
+]
+
 const FeatureRowList: FeatureGroup[] = [
   {
     direction: "ltr",
@@ -193,7 +247,15 @@ const FeatureRowList: FeatureGroup[] = [
   },
   {
     direction: "ltr",
+    FeatureItems: opaDescription,
+  },
+  {
+    direction: "ltr",
     FeatureItems: SpeedFeatureList,
+  },
+  {
+    direction: "ltr",
+    FeatureItems: opaImageList,
   },
   {
     direction: "ltr",

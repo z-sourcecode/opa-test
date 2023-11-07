@@ -10,7 +10,7 @@ The Cloud Foundations Team, in collaboration with the Central Area Greenfield SA
 
 <br />
 
-## Supporting Partners
+## Partners
 
 ### CNOE
 
